@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Flexbox Layout - Tailwind CSS for Devs in a Hurry</title>
+  </head>
+  <body class="bg-cyan-600">
+    <div class="h-screen flex gap-4">
+      <div
+        class="bg-cyan-500 text-white px-8 py-6 text-4xl basis-60 self-center"
+      >
+        Item 1
+      </div>
+      <div class="bg-cyan-500 text-white px-8 py-6 text-4xl">Item 2</div>
+      <div class="bg-cyan-500 text-white px-8 py-6 text-4xl -order-1">
+        Item 3
+      </div>
+    </div>
+  </body>
+</html>
